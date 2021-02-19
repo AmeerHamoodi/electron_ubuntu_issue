@@ -33,7 +33,7 @@ class Main {
                 nodeIntegration: true
             }
         });
-        this.mainWindow.loadURL(__dirname + "/devBuild/index.html");
+        this.mainWindow.loadURL(__dirname + "/src/index.html");
         this.mainWindow.webContents.openDevTools();
     }
     autoupdate() {
